@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap');
+
+html{
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    align-items: center;
+    background: linear-gradient(320deg, rgb(172, 168, 247),rgb(241, 187, 255),rgb(245, 166, 229));
+    display: flex;
+    font-family: 'Exo 2', sans-serif;
+    font-display: swap;
+    height: inherit;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    
+    
+
+}
+
+.ribbon{
+    margin-left: 50px;
+    z-index: -2;
+}
+
+.maincontainer{
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(232, 21, 91, 0.377);
+    
+    border-radius: 16px;
+    box-shadow: 1px 4px 30px rgb(255, 255, 255);
+    color: #232323;
+    backdrop-filter: blur (4px);
+    -webkit-backdrop-filter: blur(4px);
+    background: linear-gradient( rgb(153, 188, 240),rgba(202, 139, 240, 0.919),rgb(241, 130, 156));
+    border: 1px solid rgb(0, 0, 0);
+    flex-basis: 400px;
+    height: 700px;
+    padding:20px 35px;
+    width: 100vw;
+    height: auto;
+    width: max-content;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    
+}
+.logo{
+display: flex;
+margin-bottom: 6%;
+align-items: center;
+justify-content: center;
+}
+
+.logo h1{
+    margin:6%;
+    font-size: 70px;
+    text-shadow: 0 0 10px purple;
+
+    
+}
+
+
+
+.screen{
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(145, 103, 149, 0.553);
+    border: 1px solid rgba(243, 239, 240, 0.996);
+    border-radius: 16px;
+    box-shadow: 0 1px 7px rgb(35, 35, 35);
+    color: #232323;
+    font-size: 50px;
+    padding: 20px ;
+    text-align: right;
+    justify-content: center;
+    align-items: center;
+    width: 326px;
+    height: 100px;
+    background-image: url(btslogo.png);
+    background-repeat: no-repeat;
+    background-size: 20%;
+    overflow:hidden;
+    padding-top: 0%;
+    margin-top: 0%;
+    
+
+    
+
+}
+
+.calc-button-row{
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 0;
+    
+
+}
+
+.calc-button{
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(211, 107, 240, 0.75);
+    border: 1px solid rgba(255,255,255,0.01);
+    border-radius: 100%;
+    box-shadow: 0 0px 7px rgb(35, 35, 35);
+    color:rgb(255, 255, 255);
+    text-shadow: 0px 0px  7px rgb(0, 0, 0);
+    flex-basis: 20%;
+    font-size: 30px;
+    height: 65px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-weight: 900;
+    background-color:rgb(160, 29, 189);
+    
+    
+}
+
+.calc-button:last-child{
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(255,255,255,0.75);
+    border: 1px solid rgba(255,255,255,0.01);
+    border-radius: 16px;
+    box-shadow: 0 0px px rgb(35, 35, 35);
+    color:#fff;
+    background: purple;
+}
+
+.calc-button:last-child:hover{
+    background-color: inherit;
+    color: inherit;
+
+}
+
+.calc-button:last-child:active{
+    color:#fff
+}
+
+.calc-button:hover{
+    background-color: inherit;
+}
+
+.calc-button:active{
+    color: rgb(214, 0, 182);
+}
+
+
+.double{
+    flex-basis:47%;
+    border-radius: 16px;
+}
+
+.triple{
+    flex-basis: 47%;
+    border-radius: 16px;
+}
+
+#mod{
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(255,255,255,0.75);
+    border: 1px solid rgba(255,255,255,0.01);
+    border-radius: 16px;
+    box-shadow: 0 0px 7px rgb(35, 35, 35);
+    color:#fff;
+    background: purple;
+}
+
+#mod:hover{
+    background-color: inherit;
+    color: inherit;
+}
+
+#mod:active{
+    color: #fff;
+}
+
+
+.jungkook{
+    background-image: url(jungkook.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.jimin{
+    background-image: url(jimin.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+} 
+
+.v{
+    background-image: url(v.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.suga{
+    background-image: url(suga.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.jin{
+    background-image: url(jin.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.jhope{
+    background-image: url(jhope.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.rm{
+    background-image: url(rm.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.bts1{
+    background-image: url(bts1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.bts2{
+    background-image: url(bts2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.bts3{
+    background-image: url(bts3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.banner img{
+    margin-left: 15%;
+    width: 250px;
+    height: auto;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    
+    
+}
+
+.banner{
+   
+    align-content: center;
+    justify-content: center;
+}
